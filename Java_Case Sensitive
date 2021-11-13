@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class sensitive {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter a character: ");
+        char input = sc.next().charAt(0);
+        if (Character.isUpperCase(input))
+        {
+            System.out.println("The entered character is Uppercase");
+        }
+        else if (Character.isLowerCase(input))
+        {
+            System.out.println("The entered character is lowercase");
+        }
+
+    }
+}
