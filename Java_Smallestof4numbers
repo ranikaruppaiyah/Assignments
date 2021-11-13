@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class smallest 
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Please enter 4 numbers");
+        Scanner sc = new Scanner(System.in);
+
+        int num1  = sc.nextInt();
+        int num2  = sc.nextInt();
+        int num3  = sc.nextInt();
+        int num4  = sc.nextInt();
+
+        if (num1 < num2 && num1 < num3 && num1 < num4)
+        {
+            System.out.println("smallest number is " + num1);
+        }
+        if (num2 < num1 && num2 < num3 && num2 < num4) {
+            System.out.println("smallest number is " + num2);
+        }
+        if (num3 < num1 && num3 < num2 && num3 < num4)
+            {
+             System.out.println("smallest number is " + num3);
+            }
+        if (num4 < num1 && num4 < num2 && num4 < num3) {
+            System.out.println("smallest number is " + num4);
+        }
+    }
+}
